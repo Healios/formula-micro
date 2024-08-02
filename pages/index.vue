@@ -4,7 +4,6 @@
     // Fields.
     const { $preview } = useNuxtApp(); 
     const { slug } = useRoute().params;
-    console.log(slug);
 
     // Get page.
     if ($preview) {
@@ -94,6 +93,8 @@
                 <BlocksContactForm :data="block" />
 
                 <BlocksColumns :data="block" />
+
+                <BlocksNews :data="block" />
             </template>
         </div>
     </div>

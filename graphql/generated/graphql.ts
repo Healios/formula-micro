@@ -2839,6 +2839,297 @@ export default {
             ]
           },
           {
+            "name": "create_news_blocks_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "create_news_blocks_items",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "create_news_blocks_news_posts_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "create_news_blocks_news_posts_items",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_news_posts",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "create_news_blocks_tags_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "create_news_blocks_tags_items",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_tags",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
             "name": "create_news_posts_item",
             "type": {
               "kind": "OBJECT",
@@ -6392,6 +6683,135 @@ export default {
           },
           {
             "name": "delete_navigation_menu_subitems_items",
+            "type": {
+              "kind": "OBJECT",
+              "name": "delete_many",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "ids",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "LIST",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete_news_blocks_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "delete_one",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete_news_blocks_items",
+            "type": {
+              "kind": "OBJECT",
+              "name": "delete_many",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "ids",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "LIST",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete_news_blocks_news_posts_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "delete_one",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete_news_blocks_news_posts_items",
+            "type": {
+              "kind": "OBJECT",
+              "name": "delete_many",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "ids",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "LIST",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete_news_blocks_tags_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "delete_one",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "delete_news_blocks_tags_items",
             "type": {
               "kind": "OBJECT",
               "name": "delete_many",
@@ -13035,6 +13455,588 @@ export default {
                   "ofType": {
                     "kind": "OBJECT",
                     "name": "navigation_menu_subitems",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "ids",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "LIST",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_batch",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_items",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "ids",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "LIST",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_news_posts_batch",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_news_posts",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_news_posts_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_news_posts_items",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_news_posts",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "ids",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "LIST",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_tags_batch",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_tags",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "ofType": {
+                      "kind": "SCALAR",
+                      "name": "Any"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_tags_item",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "data",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "update_news_blocks_tags_items",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_tags",
                     "ofType": null
                   }
                 }
@@ -23504,6 +24506,591 @@ export default {
             ]
           },
           {
+            "name": "news_blocks",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_aggregated",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_aggregated",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "groupBy",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_by_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "version",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_by_version",
+            "type": {
+              "kind": "OBJECT",
+              "name": "version_news_blocks",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "version",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_news_posts",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_news_posts",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_news_posts_aggregated",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_news_posts_aggregated",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "groupBy",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_news_posts_by_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "version",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_news_posts_by_version",
+            "type": {
+              "kind": "OBJECT",
+              "name": "version_news_blocks_news_posts",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "version",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_tags",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_tags",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_tags_aggregated",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "LIST",
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "news_blocks_tags_aggregated",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "groupBy",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_tags_by_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "version",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_tags_by_version",
+            "type": {
+              "kind": "OBJECT",
+              "name": "version_news_blocks_tags",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "id",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              },
+              {
+                "name": "version",
+                "type": {
+                  "kind": "NON_NULL",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
             "name": "news_posts",
             "type": {
               "kind": "NON_NULL",
@@ -29011,6 +30598,57 @@ export default {
             "type": {
               "kind": "OBJECT",
               "name": "navigation_menu_subitems_mutated",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "event",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_mutated",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_mutated",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "event",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_news_posts_mutated",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_mutated",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "event",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_blocks_tags_mutated",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_mutated",
               "ofType": null
             },
             "args": [
@@ -49265,6 +50903,1139 @@ export default {
       },
       {
         "kind": "OBJECT",
+        "name": "news_blocks",
+        "fields": [
+          {
+            "name": "date_created",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "date_created_func",
+            "type": {
+              "kind": "OBJECT",
+              "name": "datetime_functions",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "date_updated",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "date_updated_func",
+            "type": {
+              "kind": "OBJECT",
+              "name": "datetime_functions",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "id",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Any"
+              }
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "status",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "tags",
+            "type": {
+              "kind": "LIST",
+              "ofType": {
+                "kind": "OBJECT",
+                "name": "news_blocks_tags",
+                "ofType": null
+              }
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "tags_func",
+            "type": {
+              "kind": "OBJECT",
+              "name": "count_functions",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "title",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "user_created",
+            "type": {
+              "kind": "OBJECT",
+              "name": "directus_users",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "user_updated",
+            "type": {
+              "kind": "OBJECT",
+              "name": "directus_users",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_aggregated",
+        "fields": [
+          {
+            "name": "avg",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "avgDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "count",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_count",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "countAll",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "countDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_count",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "group",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "max",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "min",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "sum",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "sumDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_aggregated_count",
+        "fields": [
+          {
+            "name": "date_created",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "date_updated",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "status",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "tags",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "title",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "user_created",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "user_updated",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_aggregated_fields",
+        "fields": [
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_mutated",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "event",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "key",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Any"
+              }
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_news_posts",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Any"
+              }
+            },
+            "args": []
+          },
+          {
+            "name": "news_blocks_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "news_posts_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_posts",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_news_posts_aggregated",
+        "fields": [
+          {
+            "name": "avg",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "avgDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "count",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_count",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "countAll",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "countDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_count",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "group",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "max",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "min",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "sum",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "sumDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_news_posts_aggregated_count",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "news_blocks_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "news_posts_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_news_posts_aggregated_fields",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_news_posts_mutated",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_news_posts",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "event",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "key",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Any"
+              }
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_tags",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Any"
+              }
+            },
+            "args": []
+          },
+          {
+            "name": "news_blocks_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "tags_id",
+            "type": {
+              "kind": "OBJECT",
+              "name": "tags",
+              "ofType": null
+            },
+            "args": [
+              {
+                "name": "filter",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "limit",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "offset",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "page",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "search",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Any"
+                }
+              },
+              {
+                "name": "sort",
+                "type": {
+                  "kind": "LIST",
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "Any"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_tags_aggregated",
+        "fields": [
+          {
+            "name": "avg",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "avgDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "count",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_count",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "countAll",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "countDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_count",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "group",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "max",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "min",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "sum",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "sumDistinct",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags_aggregated_fields",
+              "ofType": null
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_tags_aggregated_count",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "news_blocks_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "tags_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_tags_aggregated_fields",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "news_blocks_tags_mutated",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "kind": "OBJECT",
+              "name": "news_blocks_tags",
+              "ofType": null
+            },
+            "args": []
+          },
+          {
+            "name": "event",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "key",
+            "type": {
+              "kind": "NON_NULL",
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Any"
+              }
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
         "name": "news_posts",
         "fields": [
           {
@@ -51438,6 +54209,10 @@ export default {
           {
             "kind": "OBJECT",
             "name": "google_maps_blocks"
+          },
+          {
+            "kind": "OBJECT",
+            "name": "news_blocks"
           },
           {
             "kind": "OBJECT",
@@ -62506,6 +65281,163 @@ export default {
       },
       {
         "kind": "OBJECT",
+        "name": "version_news_blocks",
+        "fields": [
+          {
+            "name": "date_created",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "date_updated",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "status",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "tags",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "title",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "user_created",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "user_updated",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "version_news_blocks_news_posts",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "news_blocks_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "news_posts_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
+        "name": "version_news_blocks_tags",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "news_blocks_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "sort",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          },
+          {
+            "name": "tags_id",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Any"
+            },
+            "args": []
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "kind": "OBJECT",
         "name": "version_news_posts",
         "fields": [
           {
@@ -65309,6 +68241,12 @@ export type Mutation = {
   create_navigation_menu_items_items: Array<Navigation_Menu_Items>;
   create_navigation_menu_subitems_item?: Maybe<Navigation_Menu_Subitems>;
   create_navigation_menu_subitems_items: Array<Navigation_Menu_Subitems>;
+  create_news_blocks_item?: Maybe<News_Blocks>;
+  create_news_blocks_items: Array<News_Blocks>;
+  create_news_blocks_news_posts_item?: Maybe<News_Blocks_News_Posts>;
+  create_news_blocks_news_posts_items: Array<News_Blocks_News_Posts>;
+  create_news_blocks_tags_item?: Maybe<News_Blocks_Tags>;
+  create_news_blocks_tags_items: Array<News_Blocks_Tags>;
   create_news_posts_item?: Maybe<News_Posts>;
   create_news_posts_items: Array<News_Posts>;
   create_news_posts_tags_item?: Maybe<News_Posts_Tags>;
@@ -65415,6 +68353,12 @@ export type Mutation = {
   delete_navigation_menu_items_items?: Maybe<Delete_Many>;
   delete_navigation_menu_subitems_item?: Maybe<Delete_One>;
   delete_navigation_menu_subitems_items?: Maybe<Delete_Many>;
+  delete_news_blocks_item?: Maybe<Delete_One>;
+  delete_news_blocks_items?: Maybe<Delete_Many>;
+  delete_news_blocks_news_posts_item?: Maybe<Delete_One>;
+  delete_news_blocks_news_posts_items?: Maybe<Delete_Many>;
+  delete_news_blocks_tags_item?: Maybe<Delete_One>;
+  delete_news_blocks_tags_items?: Maybe<Delete_Many>;
   delete_news_posts_item?: Maybe<Delete_One>;
   delete_news_posts_items?: Maybe<Delete_Many>;
   delete_news_posts_tags_item?: Maybe<Delete_One>;
@@ -65552,6 +68496,15 @@ export type Mutation = {
   update_navigation_menu_subitems_batch: Array<Navigation_Menu_Subitems>;
   update_navigation_menu_subitems_item?: Maybe<Navigation_Menu_Subitems>;
   update_navigation_menu_subitems_items: Array<Navigation_Menu_Subitems>;
+  update_news_blocks_batch: Array<News_Blocks>;
+  update_news_blocks_item?: Maybe<News_Blocks>;
+  update_news_blocks_items: Array<News_Blocks>;
+  update_news_blocks_news_posts_batch: Array<News_Blocks_News_Posts>;
+  update_news_blocks_news_posts_item?: Maybe<News_Blocks_News_Posts>;
+  update_news_blocks_news_posts_items: Array<News_Blocks_News_Posts>;
+  update_news_blocks_tags_batch: Array<News_Blocks_Tags>;
+  update_news_blocks_tags_item?: Maybe<News_Blocks_Tags>;
+  update_news_blocks_tags_items: Array<News_Blocks_Tags>;
   update_news_posts_batch: Array<News_Posts>;
   update_news_posts_item?: Maybe<News_Posts>;
   update_news_posts_items: Array<News_Posts>;
@@ -66083,6 +69036,54 @@ export type MutationCreate_Navigation_Menu_Subitems_ItemArgs = {
 export type MutationCreate_Navigation_Menu_Subitems_ItemsArgs = {
   data?: InputMaybe<Array<Create_Navigation_Menu_Subitems_Input>>;
   filter?: InputMaybe<Navigation_Menu_Subitems_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationCreate_News_Blocks_ItemArgs = {
+  data: Create_News_Blocks_Input;
+};
+
+
+export type MutationCreate_News_Blocks_ItemsArgs = {
+  data?: InputMaybe<Array<Create_News_Blocks_Input>>;
+  filter?: InputMaybe<News_Blocks_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationCreate_News_Blocks_News_Posts_ItemArgs = {
+  data: Create_News_Blocks_News_Posts_Input;
+};
+
+
+export type MutationCreate_News_Blocks_News_Posts_ItemsArgs = {
+  data?: InputMaybe<Array<Create_News_Blocks_News_Posts_Input>>;
+  filter?: InputMaybe<News_Blocks_News_Posts_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationCreate_News_Blocks_Tags_ItemArgs = {
+  data: Create_News_Blocks_Tags_Input;
+};
+
+
+export type MutationCreate_News_Blocks_Tags_ItemsArgs = {
+  data?: InputMaybe<Array<Create_News_Blocks_Tags_Input>>;
+  filter?: InputMaybe<News_Blocks_Tags_Filter>;
   limit?: InputMaybe<Scalars['Int']['input']>;
   offset?: InputMaybe<Scalars['Int']['input']>;
   page?: InputMaybe<Scalars['Int']['input']>;
@@ -66761,6 +69762,36 @@ export type MutationDelete_Navigation_Menu_Subitems_ItemArgs = {
 
 
 export type MutationDelete_Navigation_Menu_Subitems_ItemsArgs = {
+  ids: Array<InputMaybe<Scalars['ID']['input']>>;
+};
+
+
+export type MutationDelete_News_Blocks_ItemArgs = {
+  id: Scalars['ID']['input'];
+};
+
+
+export type MutationDelete_News_Blocks_ItemsArgs = {
+  ids: Array<InputMaybe<Scalars['ID']['input']>>;
+};
+
+
+export type MutationDelete_News_Blocks_News_Posts_ItemArgs = {
+  id: Scalars['ID']['input'];
+};
+
+
+export type MutationDelete_News_Blocks_News_Posts_ItemsArgs = {
+  ids: Array<InputMaybe<Scalars['ID']['input']>>;
+};
+
+
+export type MutationDelete_News_Blocks_Tags_ItemArgs = {
+  id: Scalars['ID']['input'];
+};
+
+
+export type MutationDelete_News_Blocks_Tags_ItemsArgs = {
   ids: Array<InputMaybe<Scalars['ID']['input']>>;
 };
 
@@ -67856,6 +70887,93 @@ export type MutationUpdate_Navigation_Menu_Subitems_ItemsArgs = {
 };
 
 
+export type MutationUpdate_News_Blocks_BatchArgs = {
+  data?: InputMaybe<Array<Update_News_Blocks_Input>>;
+  filter?: InputMaybe<News_Blocks_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationUpdate_News_Blocks_ItemArgs = {
+  data: Update_News_Blocks_Input;
+  id: Scalars['ID']['input'];
+};
+
+
+export type MutationUpdate_News_Blocks_ItemsArgs = {
+  data: Update_News_Blocks_Input;
+  filter?: InputMaybe<News_Blocks_Filter>;
+  ids: Array<InputMaybe<Scalars['ID']['input']>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationUpdate_News_Blocks_News_Posts_BatchArgs = {
+  data?: InputMaybe<Array<Update_News_Blocks_News_Posts_Input>>;
+  filter?: InputMaybe<News_Blocks_News_Posts_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationUpdate_News_Blocks_News_Posts_ItemArgs = {
+  data: Update_News_Blocks_News_Posts_Input;
+  id: Scalars['ID']['input'];
+};
+
+
+export type MutationUpdate_News_Blocks_News_Posts_ItemsArgs = {
+  data: Update_News_Blocks_News_Posts_Input;
+  filter?: InputMaybe<News_Blocks_News_Posts_Filter>;
+  ids: Array<InputMaybe<Scalars['ID']['input']>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationUpdate_News_Blocks_Tags_BatchArgs = {
+  data?: InputMaybe<Array<Update_News_Blocks_Tags_Input>>;
+  filter?: InputMaybe<News_Blocks_Tags_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type MutationUpdate_News_Blocks_Tags_ItemArgs = {
+  data: Update_News_Blocks_Tags_Input;
+  id: Scalars['ID']['input'];
+};
+
+
+export type MutationUpdate_News_Blocks_Tags_ItemsArgs = {
+  data: Update_News_Blocks_Tags_Input;
+  filter?: InputMaybe<News_Blocks_Tags_Filter>;
+  ids: Array<InputMaybe<Scalars['ID']['input']>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
 export type MutationUpdate_News_Posts_BatchArgs = {
   data?: InputMaybe<Array<Update_News_Posts_Input>>;
   filter?: InputMaybe<News_Posts_Filter>;
@@ -68673,6 +71791,18 @@ export type Query = {
   navigation_menu_subitems_aggregated: Array<Navigation_Menu_Subitems_Aggregated>;
   navigation_menu_subitems_by_id?: Maybe<Navigation_Menu_Subitems>;
   navigation_menu_subitems_by_version?: Maybe<Version_Navigation_Menu_Subitems>;
+  news_blocks: Array<News_Blocks>;
+  news_blocks_aggregated: Array<News_Blocks_Aggregated>;
+  news_blocks_by_id?: Maybe<News_Blocks>;
+  news_blocks_by_version?: Maybe<Version_News_Blocks>;
+  news_blocks_news_posts: Array<News_Blocks_News_Posts>;
+  news_blocks_news_posts_aggregated: Array<News_Blocks_News_Posts_Aggregated>;
+  news_blocks_news_posts_by_id?: Maybe<News_Blocks_News_Posts>;
+  news_blocks_news_posts_by_version?: Maybe<Version_News_Blocks_News_Posts>;
+  news_blocks_tags: Array<News_Blocks_Tags>;
+  news_blocks_tags_aggregated: Array<News_Blocks_Tags_Aggregated>;
+  news_blocks_tags_by_id?: Maybe<News_Blocks_Tags>;
+  news_blocks_tags_by_version?: Maybe<Version_News_Blocks_Tags>;
   news_posts: Array<News_Posts>;
   news_posts_aggregated: Array<News_Posts_Aggregated>;
   news_posts_by_id?: Maybe<News_Posts>;
@@ -69749,6 +72879,105 @@ export type QueryNavigation_Menu_Subitems_By_VersionArgs = {
 };
 
 
+export type QueryNews_BlocksArgs = {
+  filter?: InputMaybe<News_Blocks_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type QueryNews_Blocks_AggregatedArgs = {
+  filter?: InputMaybe<News_Blocks_Filter>;
+  groupBy?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type QueryNews_Blocks_By_IdArgs = {
+  id: Scalars['ID']['input'];
+  version?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+export type QueryNews_Blocks_By_VersionArgs = {
+  id: Scalars['ID']['input'];
+  version: Scalars['String']['input'];
+};
+
+
+export type QueryNews_Blocks_News_PostsArgs = {
+  filter?: InputMaybe<News_Blocks_News_Posts_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type QueryNews_Blocks_News_Posts_AggregatedArgs = {
+  filter?: InputMaybe<News_Blocks_News_Posts_Filter>;
+  groupBy?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type QueryNews_Blocks_News_Posts_By_IdArgs = {
+  id: Scalars['ID']['input'];
+  version?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+export type QueryNews_Blocks_News_Posts_By_VersionArgs = {
+  id: Scalars['ID']['input'];
+  version: Scalars['String']['input'];
+};
+
+
+export type QueryNews_Blocks_TagsArgs = {
+  filter?: InputMaybe<News_Blocks_Tags_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type QueryNews_Blocks_Tags_AggregatedArgs = {
+  filter?: InputMaybe<News_Blocks_Tags_Filter>;
+  groupBy?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type QueryNews_Blocks_Tags_By_IdArgs = {
+  id: Scalars['ID']['input'];
+  version?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+export type QueryNews_Blocks_Tags_By_VersionArgs = {
+  id: Scalars['ID']['input'];
+  version: Scalars['String']['input'];
+};
+
+
 export type QueryNews_PostsArgs = {
   filter?: InputMaybe<News_Posts_Filter>;
   limit?: InputMaybe<Scalars['Int']['input']>;
@@ -70591,6 +73820,9 @@ export type Subscription = {
   navigation_menu_items_mutated?: Maybe<Navigation_Menu_Items_Mutated>;
   navigation_menu_mutated?: Maybe<Navigation_Menu_Mutated>;
   navigation_menu_subitems_mutated?: Maybe<Navigation_Menu_Subitems_Mutated>;
+  news_blocks_mutated?: Maybe<News_Blocks_Mutated>;
+  news_blocks_news_posts_mutated?: Maybe<News_Blocks_News_Posts_Mutated>;
+  news_blocks_tags_mutated?: Maybe<News_Blocks_Tags_Mutated>;
   news_posts_mutated?: Maybe<News_Posts_Mutated>;
   news_posts_tags_mutated?: Maybe<News_Posts_Tags_Mutated>;
   page_categories_mutated?: Maybe<Page_Categories_Mutated>;
@@ -70859,6 +74091,21 @@ export type SubscriptionNavigation_Menu_MutatedArgs = {
 
 
 export type SubscriptionNavigation_Menu_Subitems_MutatedArgs = {
+  event?: InputMaybe<EventEnum>;
+};
+
+
+export type SubscriptionNews_Blocks_MutatedArgs = {
+  event?: InputMaybe<EventEnum>;
+};
+
+
+export type SubscriptionNews_Blocks_News_Posts_MutatedArgs = {
+  event?: InputMaybe<EventEnum>;
+};
+
+
+export type SubscriptionNews_Blocks_Tags_MutatedArgs = {
   event?: InputMaybe<EventEnum>;
 };
 
@@ -72942,6 +76189,32 @@ export type Create_Navigation_Menu_Subitems_Input = {
   type?: InputMaybe<Scalars['String']['input']>;
   user_created?: InputMaybe<Create_Directus_Users_Input>;
   user_updated?: InputMaybe<Create_Directus_Users_Input>;
+};
+
+export type Create_News_Blocks_Input = {
+  date_created?: InputMaybe<Scalars['Date']['input']>;
+  date_updated?: InputMaybe<Scalars['Date']['input']>;
+  id?: InputMaybe<Scalars['ID']['input']>;
+  sort?: InputMaybe<Scalars['Int']['input']>;
+  status?: InputMaybe<Scalars['String']['input']>;
+  tags?: InputMaybe<Array<InputMaybe<Create_News_Blocks_Tags_Input>>>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  user_created?: InputMaybe<Create_Directus_Users_Input>;
+  user_updated?: InputMaybe<Create_Directus_Users_Input>;
+};
+
+export type Create_News_Blocks_News_Posts_Input = {
+  id?: InputMaybe<Scalars['ID']['input']>;
+  news_blocks_id?: InputMaybe<Create_News_Blocks_Input>;
+  news_posts_id?: InputMaybe<Create_News_Posts_Input>;
+  sort?: InputMaybe<Scalars['Int']['input']>;
+};
+
+export type Create_News_Blocks_Tags_Input = {
+  id?: InputMaybe<Scalars['ID']['input']>;
+  news_blocks_id?: InputMaybe<Create_News_Blocks_Input>;
+  sort?: InputMaybe<Scalars['Int']['input']>;
+  tags_id?: InputMaybe<Create_Tags_Input>;
 };
 
 export type Create_News_Posts_Input = {
@@ -76071,6 +79344,252 @@ export type Navigation_Menu_Subitems_Mutated = {
   key: Scalars['ID']['output'];
 };
 
+export type News_Blocks = {
+  __typename?: 'news_blocks';
+  date_created?: Maybe<Scalars['Date']['output']>;
+  date_created_func?: Maybe<Datetime_Functions>;
+  date_updated?: Maybe<Scalars['Date']['output']>;
+  date_updated_func?: Maybe<Datetime_Functions>;
+  id: Scalars['ID']['output'];
+  sort?: Maybe<Scalars['Int']['output']>;
+  status?: Maybe<Scalars['String']['output']>;
+  tags?: Maybe<Array<Maybe<News_Blocks_Tags>>>;
+  tags_func?: Maybe<Count_Functions>;
+  title?: Maybe<Scalars['String']['output']>;
+  user_created?: Maybe<Directus_Users>;
+  user_updated?: Maybe<Directus_Users>;
+};
+
+
+export type News_BlocksTagsArgs = {
+  filter?: InputMaybe<News_Blocks_Tags_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type News_BlocksUser_CreatedArgs = {
+  filter?: InputMaybe<Directus_Users_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type News_BlocksUser_UpdatedArgs = {
+  filter?: InputMaybe<Directus_Users_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type News_Blocks_Aggregated = {
+  __typename?: 'news_blocks_aggregated';
+  avg?: Maybe<News_Blocks_Aggregated_Fields>;
+  avgDistinct?: Maybe<News_Blocks_Aggregated_Fields>;
+  count?: Maybe<News_Blocks_Aggregated_Count>;
+  countAll?: Maybe<Scalars['Int']['output']>;
+  countDistinct?: Maybe<News_Blocks_Aggregated_Count>;
+  group?: Maybe<Scalars['JSON']['output']>;
+  max?: Maybe<News_Blocks_Aggregated_Fields>;
+  min?: Maybe<News_Blocks_Aggregated_Fields>;
+  sum?: Maybe<News_Blocks_Aggregated_Fields>;
+  sumDistinct?: Maybe<News_Blocks_Aggregated_Fields>;
+};
+
+export type News_Blocks_Aggregated_Count = {
+  __typename?: 'news_blocks_aggregated_count';
+  date_created?: Maybe<Scalars['Int']['output']>;
+  date_updated?: Maybe<Scalars['Int']['output']>;
+  id?: Maybe<Scalars['Int']['output']>;
+  sort?: Maybe<Scalars['Int']['output']>;
+  status?: Maybe<Scalars['Int']['output']>;
+  tags?: Maybe<Scalars['Int']['output']>;
+  title?: Maybe<Scalars['Int']['output']>;
+  user_created?: Maybe<Scalars['Int']['output']>;
+  user_updated?: Maybe<Scalars['Int']['output']>;
+};
+
+export type News_Blocks_Aggregated_Fields = {
+  __typename?: 'news_blocks_aggregated_fields';
+  sort?: Maybe<Scalars['Float']['output']>;
+};
+
+export type News_Blocks_Filter = {
+  _and?: InputMaybe<Array<InputMaybe<News_Blocks_Filter>>>;
+  _or?: InputMaybe<Array<InputMaybe<News_Blocks_Filter>>>;
+  date_created?: InputMaybe<Date_Filter_Operators>;
+  date_created_func?: InputMaybe<Datetime_Function_Filter_Operators>;
+  date_updated?: InputMaybe<Date_Filter_Operators>;
+  date_updated_func?: InputMaybe<Datetime_Function_Filter_Operators>;
+  id?: InputMaybe<String_Filter_Operators>;
+  sort?: InputMaybe<Number_Filter_Operators>;
+  status?: InputMaybe<String_Filter_Operators>;
+  tags?: InputMaybe<News_Blocks_Tags_Filter>;
+  tags_func?: InputMaybe<Count_Function_Filter_Operators>;
+  title?: InputMaybe<String_Filter_Operators>;
+  user_created?: InputMaybe<Directus_Users_Filter>;
+  user_updated?: InputMaybe<Directus_Users_Filter>;
+};
+
+export type News_Blocks_Mutated = {
+  __typename?: 'news_blocks_mutated';
+  data?: Maybe<News_Blocks>;
+  event?: Maybe<EventEnum>;
+  key: Scalars['ID']['output'];
+};
+
+export type News_Blocks_News_Posts = {
+  __typename?: 'news_blocks_news_posts';
+  id: Scalars['ID']['output'];
+  news_blocks_id?: Maybe<News_Blocks>;
+  news_posts_id?: Maybe<News_Posts>;
+  sort?: Maybe<Scalars['Int']['output']>;
+};
+
+
+export type News_Blocks_News_PostsNews_Blocks_IdArgs = {
+  filter?: InputMaybe<News_Blocks_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type News_Blocks_News_PostsNews_Posts_IdArgs = {
+  filter?: InputMaybe<News_Posts_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type News_Blocks_News_Posts_Aggregated = {
+  __typename?: 'news_blocks_news_posts_aggregated';
+  avg?: Maybe<News_Blocks_News_Posts_Aggregated_Fields>;
+  avgDistinct?: Maybe<News_Blocks_News_Posts_Aggregated_Fields>;
+  count?: Maybe<News_Blocks_News_Posts_Aggregated_Count>;
+  countAll?: Maybe<Scalars['Int']['output']>;
+  countDistinct?: Maybe<News_Blocks_News_Posts_Aggregated_Count>;
+  group?: Maybe<Scalars['JSON']['output']>;
+  max?: Maybe<News_Blocks_News_Posts_Aggregated_Fields>;
+  min?: Maybe<News_Blocks_News_Posts_Aggregated_Fields>;
+  sum?: Maybe<News_Blocks_News_Posts_Aggregated_Fields>;
+  sumDistinct?: Maybe<News_Blocks_News_Posts_Aggregated_Fields>;
+};
+
+export type News_Blocks_News_Posts_Aggregated_Count = {
+  __typename?: 'news_blocks_news_posts_aggregated_count';
+  id?: Maybe<Scalars['Int']['output']>;
+  news_blocks_id?: Maybe<Scalars['Int']['output']>;
+  news_posts_id?: Maybe<Scalars['Int']['output']>;
+  sort?: Maybe<Scalars['Int']['output']>;
+};
+
+export type News_Blocks_News_Posts_Aggregated_Fields = {
+  __typename?: 'news_blocks_news_posts_aggregated_fields';
+  id?: Maybe<Scalars['Float']['output']>;
+  sort?: Maybe<Scalars['Float']['output']>;
+};
+
+export type News_Blocks_News_Posts_Filter = {
+  _and?: InputMaybe<Array<InputMaybe<News_Blocks_News_Posts_Filter>>>;
+  _or?: InputMaybe<Array<InputMaybe<News_Blocks_News_Posts_Filter>>>;
+  id?: InputMaybe<Number_Filter_Operators>;
+  news_blocks_id?: InputMaybe<News_Blocks_Filter>;
+  news_posts_id?: InputMaybe<News_Posts_Filter>;
+  sort?: InputMaybe<Number_Filter_Operators>;
+};
+
+export type News_Blocks_News_Posts_Mutated = {
+  __typename?: 'news_blocks_news_posts_mutated';
+  data?: Maybe<News_Blocks_News_Posts>;
+  event?: Maybe<EventEnum>;
+  key: Scalars['ID']['output'];
+};
+
+export type News_Blocks_Tags = {
+  __typename?: 'news_blocks_tags';
+  id: Scalars['ID']['output'];
+  news_blocks_id?: Maybe<News_Blocks>;
+  sort?: Maybe<Scalars['Int']['output']>;
+  tags_id?: Maybe<Tags>;
+};
+
+
+export type News_Blocks_TagsNews_Blocks_IdArgs = {
+  filter?: InputMaybe<News_Blocks_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+export type News_Blocks_TagsTags_IdArgs = {
+  filter?: InputMaybe<Tags_Filter>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  page?: InputMaybe<Scalars['Int']['input']>;
+  search?: InputMaybe<Scalars['String']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type News_Blocks_Tags_Aggregated = {
+  __typename?: 'news_blocks_tags_aggregated';
+  avg?: Maybe<News_Blocks_Tags_Aggregated_Fields>;
+  avgDistinct?: Maybe<News_Blocks_Tags_Aggregated_Fields>;
+  count?: Maybe<News_Blocks_Tags_Aggregated_Count>;
+  countAll?: Maybe<Scalars['Int']['output']>;
+  countDistinct?: Maybe<News_Blocks_Tags_Aggregated_Count>;
+  group?: Maybe<Scalars['JSON']['output']>;
+  max?: Maybe<News_Blocks_Tags_Aggregated_Fields>;
+  min?: Maybe<News_Blocks_Tags_Aggregated_Fields>;
+  sum?: Maybe<News_Blocks_Tags_Aggregated_Fields>;
+  sumDistinct?: Maybe<News_Blocks_Tags_Aggregated_Fields>;
+};
+
+export type News_Blocks_Tags_Aggregated_Count = {
+  __typename?: 'news_blocks_tags_aggregated_count';
+  id?: Maybe<Scalars['Int']['output']>;
+  news_blocks_id?: Maybe<Scalars['Int']['output']>;
+  sort?: Maybe<Scalars['Int']['output']>;
+  tags_id?: Maybe<Scalars['Int']['output']>;
+};
+
+export type News_Blocks_Tags_Aggregated_Fields = {
+  __typename?: 'news_blocks_tags_aggregated_fields';
+  id?: Maybe<Scalars['Float']['output']>;
+  sort?: Maybe<Scalars['Float']['output']>;
+};
+
+export type News_Blocks_Tags_Filter = {
+  _and?: InputMaybe<Array<InputMaybe<News_Blocks_Tags_Filter>>>;
+  _or?: InputMaybe<Array<InputMaybe<News_Blocks_Tags_Filter>>>;
+  id?: InputMaybe<Number_Filter_Operators>;
+  news_blocks_id?: InputMaybe<News_Blocks_Filter>;
+  sort?: InputMaybe<Number_Filter_Operators>;
+  tags_id?: InputMaybe<Tags_Filter>;
+};
+
+export type News_Blocks_Tags_Mutated = {
+  __typename?: 'news_blocks_tags_mutated';
+  data?: Maybe<News_Blocks_Tags>;
+  event?: Maybe<EventEnum>;
+  key: Scalars['ID']['output'];
+};
+
 export type News_Posts = {
   __typename?: 'news_posts';
   content?: Maybe<Scalars['JSON']['output']>;
@@ -76532,6 +80051,7 @@ export type Pages_Blocks_Filter = {
   item__disclosure_blocks?: InputMaybe<Disclosure_Blocks_Filter>;
   item__gallery_blocks?: InputMaybe<Gallery_Blocks_Filter>;
   item__google_maps_blocks?: InputMaybe<Google_Maps_Blocks_Filter>;
+  item__news_blocks?: InputMaybe<News_Blocks_Filter>;
   item__partners_blocks?: InputMaybe<Partners_Blocks_Filter>;
   item__richtext_blocks?: InputMaybe<Richtext_Blocks_Filter>;
   item__services_list_blocks?: InputMaybe<Services_List_Blocks_Filter>;
@@ -76542,7 +80062,7 @@ export type Pages_Blocks_Filter = {
   sort?: InputMaybe<Number_Filter_Operators>;
 };
 
-export type Pages_Blocks_Item_Union = Banner_Hero_Blocks | Columns_Blocks | Contact_Form_Blocks | Cookie_Selection_Blocks | Disclosure_Blocks | Gallery_Blocks | Google_Maps_Blocks | Partners_Blocks | Richtext_Blocks | Services_List_Blocks | Spacer_Blocks | Text_And_Image_Blocks | Text_Hero_Blocks;
+export type Pages_Blocks_Item_Union = Banner_Hero_Blocks | Columns_Blocks | Contact_Form_Blocks | Cookie_Selection_Blocks | Disclosure_Blocks | Gallery_Blocks | Google_Maps_Blocks | News_Blocks | Partners_Blocks | Richtext_Blocks | Services_List_Blocks | Spacer_Blocks | Text_And_Image_Blocks | Text_Hero_Blocks;
 
 export type Pages_Blocks_Mutated = {
   __typename?: 'pages_blocks_mutated';
@@ -78861,6 +82381,32 @@ export type Update_Navigation_Menu_Subitems_Input = {
   user_updated?: InputMaybe<Update_Directus_Users_Input>;
 };
 
+export type Update_News_Blocks_Input = {
+  date_created?: InputMaybe<Scalars['Date']['input']>;
+  date_updated?: InputMaybe<Scalars['Date']['input']>;
+  id?: InputMaybe<Scalars['ID']['input']>;
+  sort?: InputMaybe<Scalars['Int']['input']>;
+  status?: InputMaybe<Scalars['String']['input']>;
+  tags?: InputMaybe<Array<InputMaybe<Update_News_Blocks_Tags_Input>>>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  user_created?: InputMaybe<Update_Directus_Users_Input>;
+  user_updated?: InputMaybe<Update_Directus_Users_Input>;
+};
+
+export type Update_News_Blocks_News_Posts_Input = {
+  id?: InputMaybe<Scalars['ID']['input']>;
+  news_blocks_id?: InputMaybe<Update_News_Blocks_Input>;
+  news_posts_id?: InputMaybe<Update_News_Posts_Input>;
+  sort?: InputMaybe<Scalars['Int']['input']>;
+};
+
+export type Update_News_Blocks_Tags_Input = {
+  id?: InputMaybe<Scalars['ID']['input']>;
+  news_blocks_id?: InputMaybe<Update_News_Blocks_Input>;
+  sort?: InputMaybe<Scalars['Int']['input']>;
+  tags_id?: InputMaybe<Update_Tags_Input>;
+};
+
 export type Update_News_Posts_Input = {
   content?: InputMaybe<Scalars['JSON']['input']>;
   cover_image?: InputMaybe<Update_Directus_Files_Input>;
@@ -79571,6 +83117,35 @@ export type Version_Navigation_Menu_Subitems = {
   user_updated?: Maybe<Scalars['JSON']['output']>;
 };
 
+export type Version_News_Blocks = {
+  __typename?: 'version_news_blocks';
+  date_created?: Maybe<Scalars['Date']['output']>;
+  date_updated?: Maybe<Scalars['Date']['output']>;
+  id?: Maybe<Scalars['ID']['output']>;
+  sort?: Maybe<Scalars['Int']['output']>;
+  status?: Maybe<Scalars['String']['output']>;
+  tags?: Maybe<Scalars['JSON']['output']>;
+  title?: Maybe<Scalars['String']['output']>;
+  user_created?: Maybe<Scalars['JSON']['output']>;
+  user_updated?: Maybe<Scalars['JSON']['output']>;
+};
+
+export type Version_News_Blocks_News_Posts = {
+  __typename?: 'version_news_blocks_news_posts';
+  id?: Maybe<Scalars['ID']['output']>;
+  news_blocks_id?: Maybe<Scalars['JSON']['output']>;
+  news_posts_id?: Maybe<Scalars['JSON']['output']>;
+  sort?: Maybe<Scalars['Int']['output']>;
+};
+
+export type Version_News_Blocks_Tags = {
+  __typename?: 'version_news_blocks_tags';
+  id?: Maybe<Scalars['ID']['output']>;
+  news_blocks_id?: Maybe<Scalars['JSON']['output']>;
+  sort?: Maybe<Scalars['Int']['output']>;
+  tags_id?: Maybe<Scalars['JSON']['output']>;
+};
+
 export type Version_News_Posts = {
   __typename?: 'version_news_posts';
   content?: Maybe<Scalars['JSON']['output']>;
@@ -80067,6 +83642,8 @@ export type PartnerFragment = { __typename?: 'partners', status?: string | null,
 
 export type PartnersBlockFragment = { __typename?: 'partners_blocks', title?: string | null, show_title?: boolean | null, partners?: Array<{ __typename?: 'partners_blocks_partners', partners_id?: { __typename?: 'partners', status?: string | null, name?: string | null, logo?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null };
 
+export type NewsBlockFragment = { __typename?: 'news_blocks', title?: string | null, tags?: Array<{ __typename?: 'news_blocks_tags', tags_id?: { __typename?: 'tags', id: string, name?: string | null } | null } | null> | null };
+
 export type ColorFragment = { __typename?: 'colors', class?: string | null };
 
 export type WidthFragment = { __typename?: 'widths', class?: string | null, name?: string | null };
@@ -80189,7 +83766,17 @@ export type NewsPostsQueryVariables = Exact<{
 
 export type NewsPostsQuery = { __typename?: 'Query', news_posts: Array<{ __typename?: 'news_posts', id: string, status?: string | null, date_published?: any | null, title?: string | null, slug?: string | null, summary?: string | null, content?: any | null, cover_image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null, tags?: Array<{ __typename?: 'news_posts_tags', tags_id?: { __typename?: 'tags', id: string, name?: string | null } | null } | null> | null }> };
 
-export type PageFragment = { __typename?: 'pages', id: string, status?: string | null, title?: string | null, slug?: string | null, seo_title?: string | null, seo_description?: string | null, blocks?: Array<{ __typename?: 'pages_blocks', item?: { __typename?: 'banner_hero_blocks', has_padding?: boolean | null, title?: string | null, autoplay?: boolean | null, interval?: number | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, banners?: Array<{ __typename?: 'banner_hero_blocks_banners', title?: string | null, description?: string | null, text?: string | null, overlay_color?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, width?: number | null, height?: number | null, description?: string | null, attribution?: string | null } | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | null> | null } | { __typename?: 'columns_blocks', extended_control?: boolean | null, custom_css?: string | null, vertical_alignment?: string | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, blocks?: Array<{ __typename?: 'columns_blocks_blocks', item?: { __typename?: 'card_blocks', show_large_image?: boolean | null, title?: string | null, description?: string | null, text_alignment?: string | null, type?: string | null, link?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, background_color_active?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'image_blocks', image_position?: string | null, image_fit?: string | null, image_size?: string | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks' } | null } | null> | null } | { __typename?: 'contact_form_blocks', has_padding?: boolean | null, title?: string | null, description?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'cookie_selection_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'google_maps_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'partners_blocks', title?: string | null, show_title?: boolean | null, partners?: Array<{ __typename?: 'partners_blocks_partners', partners_id?: { __typename?: 'partners', status?: string | null, name?: string | null, logo?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks', has_padding?: boolean | null, title?: string | null, content?: string | null, links_placement?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, links?: Array<{ __typename?: 'services_list_blocks_links', item?: { __typename?: 'blog_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'cases', id: string, title?: string | null, slug?: string | null } | { __typename?: 'news_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'pages', id: string, title?: string | null, slug?: string | null } | null } | null> | null } | { __typename?: 'spacer_blocks', height?: { __typename?: 'heights', class?: string | null } | null } | { __typename?: 'text_and_image_blocks', has_padding?: boolean | null, title?: string | null, image_placement?: string | null, image_position?: string | null, image_fit?: string | null, image_size?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | { __typename?: 'text_hero_blocks', has_padding?: boolean | null, illustration_type?: string | null, title?: string | null, content?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, icon?: { __typename?: 'directus_files', filename_download: string } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null };
+export type NewsPostsByTagsQueryVariables = Exact<{
+  tags?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>> | InputMaybe<Scalars['String']['input']>>;
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  offset?: InputMaybe<Scalars['Int']['input']>;
+  sort?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>> | InputMaybe<Scalars['String']['input']>>;
+}>;
+
+
+export type NewsPostsByTagsQuery = { __typename?: 'Query', news_posts: Array<{ __typename?: 'news_posts', id: string, status?: string | null, date_published?: any | null, title?: string | null, slug?: string | null, summary?: string | null, content?: any | null, cover_image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null, tags?: Array<{ __typename?: 'news_posts_tags', tags_id?: { __typename?: 'tags', id: string, name?: string | null } | null } | null> | null }> };
+
+export type PageFragment = { __typename?: 'pages', id: string, status?: string | null, title?: string | null, slug?: string | null, seo_title?: string | null, seo_description?: string | null, blocks?: Array<{ __typename?: 'pages_blocks', item?: { __typename?: 'banner_hero_blocks', has_padding?: boolean | null, title?: string | null, autoplay?: boolean | null, interval?: number | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, banners?: Array<{ __typename?: 'banner_hero_blocks_banners', title?: string | null, description?: string | null, text?: string | null, overlay_color?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, width?: number | null, height?: number | null, description?: string | null, attribution?: string | null } | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | null> | null } | { __typename?: 'columns_blocks', extended_control?: boolean | null, custom_css?: string | null, vertical_alignment?: string | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, blocks?: Array<{ __typename?: 'columns_blocks_blocks', item?: { __typename?: 'card_blocks', show_large_image?: boolean | null, title?: string | null, description?: string | null, text_alignment?: string | null, type?: string | null, link?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, background_color_active?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'image_blocks', image_position?: string | null, image_fit?: string | null, image_size?: string | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks' } | null } | null> | null } | { __typename?: 'contact_form_blocks', has_padding?: boolean | null, title?: string | null, description?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'cookie_selection_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'google_maps_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'news_blocks', title?: string | null, tags?: Array<{ __typename?: 'news_blocks_tags', tags_id?: { __typename?: 'tags', id: string, name?: string | null } | null } | null> | null } | { __typename?: 'partners_blocks', title?: string | null, show_title?: boolean | null, partners?: Array<{ __typename?: 'partners_blocks_partners', partners_id?: { __typename?: 'partners', status?: string | null, name?: string | null, logo?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks', has_padding?: boolean | null, title?: string | null, content?: string | null, links_placement?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, links?: Array<{ __typename?: 'services_list_blocks_links', item?: { __typename?: 'blog_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'cases', id: string, title?: string | null, slug?: string | null } | { __typename?: 'news_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'pages', id: string, title?: string | null, slug?: string | null } | null } | null> | null } | { __typename?: 'spacer_blocks', height?: { __typename?: 'heights', class?: string | null } | null } | { __typename?: 'text_and_image_blocks', has_padding?: boolean | null, title?: string | null, image_placement?: string | null, image_position?: string | null, image_fit?: string | null, image_size?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | { __typename?: 'text_hero_blocks', has_padding?: boolean | null, illustration_type?: string | null, title?: string | null, content?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, icon?: { __typename?: 'directus_files', filename_download: string } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null };
 
 export type PageCountQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -80206,7 +83793,7 @@ export type PagesQueryVariables = Exact<{
 }>;
 
 
-export type PagesQuery = { __typename?: 'Query', pages: Array<{ __typename?: 'pages', id: string, status?: string | null, title?: string | null, slug?: string | null, seo_title?: string | null, seo_description?: string | null, blocks?: Array<{ __typename?: 'pages_blocks', item?: { __typename?: 'banner_hero_blocks', has_padding?: boolean | null, title?: string | null, autoplay?: boolean | null, interval?: number | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, banners?: Array<{ __typename?: 'banner_hero_blocks_banners', title?: string | null, description?: string | null, text?: string | null, overlay_color?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, width?: number | null, height?: number | null, description?: string | null, attribution?: string | null } | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | null> | null } | { __typename?: 'columns_blocks', extended_control?: boolean | null, custom_css?: string | null, vertical_alignment?: string | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, blocks?: Array<{ __typename?: 'columns_blocks_blocks', item?: { __typename?: 'card_blocks', show_large_image?: boolean | null, title?: string | null, description?: string | null, text_alignment?: string | null, type?: string | null, link?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, background_color_active?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'image_blocks', image_position?: string | null, image_fit?: string | null, image_size?: string | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks' } | null } | null> | null } | { __typename?: 'contact_form_blocks', has_padding?: boolean | null, title?: string | null, description?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'cookie_selection_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'google_maps_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'partners_blocks', title?: string | null, show_title?: boolean | null, partners?: Array<{ __typename?: 'partners_blocks_partners', partners_id?: { __typename?: 'partners', status?: string | null, name?: string | null, logo?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks', has_padding?: boolean | null, title?: string | null, content?: string | null, links_placement?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, links?: Array<{ __typename?: 'services_list_blocks_links', item?: { __typename?: 'blog_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'cases', id: string, title?: string | null, slug?: string | null } | { __typename?: 'news_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'pages', id: string, title?: string | null, slug?: string | null } | null } | null> | null } | { __typename?: 'spacer_blocks', height?: { __typename?: 'heights', class?: string | null } | null } | { __typename?: 'text_and_image_blocks', has_padding?: boolean | null, title?: string | null, image_placement?: string | null, image_position?: string | null, image_fit?: string | null, image_size?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | { __typename?: 'text_hero_blocks', has_padding?: boolean | null, illustration_type?: string | null, title?: string | null, content?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, icon?: { __typename?: 'directus_files', filename_download: string } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null }> };
+export type PagesQuery = { __typename?: 'Query', pages: Array<{ __typename?: 'pages', id: string, status?: string | null, title?: string | null, slug?: string | null, seo_title?: string | null, seo_description?: string | null, blocks?: Array<{ __typename?: 'pages_blocks', item?: { __typename?: 'banner_hero_blocks', has_padding?: boolean | null, title?: string | null, autoplay?: boolean | null, interval?: number | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, banners?: Array<{ __typename?: 'banner_hero_blocks_banners', title?: string | null, description?: string | null, text?: string | null, overlay_color?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, width?: number | null, height?: number | null, description?: string | null, attribution?: string | null } | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | null> | null } | { __typename?: 'columns_blocks', extended_control?: boolean | null, custom_css?: string | null, vertical_alignment?: string | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, blocks?: Array<{ __typename?: 'columns_blocks_blocks', item?: { __typename?: 'card_blocks', show_large_image?: boolean | null, title?: string | null, description?: string | null, text_alignment?: string | null, type?: string | null, link?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, background_color_active?: { __typename?: 'colors', class?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null, page?: { __typename?: 'pages', slug?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'image_blocks', image_position?: string | null, image_fit?: string | null, image_size?: string | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks' } | null } | null> | null } | { __typename?: 'contact_form_blocks', has_padding?: boolean | null, title?: string | null, description?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'cookie_selection_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'disclosure_blocks', has_padding?: boolean | null, title?: string | null, is_expanded_by_default?: boolean | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'gallery_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, images?: Array<{ __typename?: 'gallery_blocks_files', directus_files_id?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null, video_thumbnail?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null, attribution?: string | null } | null } | null } | null> | null } | { __typename?: 'google_maps_blocks', has_padding?: boolean | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'news_blocks', title?: string | null, tags?: Array<{ __typename?: 'news_blocks_tags', tags_id?: { __typename?: 'tags', id: string, name?: string | null } | null } | null> | null } | { __typename?: 'partners_blocks', title?: string | null, show_title?: boolean | null, partners?: Array<{ __typename?: 'partners_blocks_partners', partners_id?: { __typename?: 'partners', status?: string | null, name?: string | null, logo?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null } | { __typename?: 'richtext_blocks', has_padding?: boolean | null, title?: string | null, show_title?: boolean | null, title_placement?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null } | { __typename?: 'services_list_blocks', has_padding?: boolean | null, title?: string | null, content?: string | null, links_placement?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, links?: Array<{ __typename?: 'services_list_blocks_links', item?: { __typename?: 'blog_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'cases', id: string, title?: string | null, slug?: string | null } | { __typename?: 'news_posts', id: string, title?: string | null, slug?: string | null } | { __typename?: 'pages', id: string, title?: string | null, slug?: string | null } | null } | null> | null } | { __typename?: 'spacer_blocks', height?: { __typename?: 'heights', class?: string | null } | null } | { __typename?: 'text_and_image_blocks', has_padding?: boolean | null, title?: string | null, image_placement?: string | null, image_position?: string | null, image_fit?: string | null, image_size?: string | null, editor_js_content?: any | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | { __typename?: 'text_hero_blocks', has_padding?: boolean | null, illustration_type?: string | null, title?: string | null, content?: string | null, background_color?: { __typename?: 'colors', class?: string | null } | null, width?: { __typename?: 'widths', class?: string | null, name?: string | null } | null, icon?: { __typename?: 'directus_files', filename_download: string } | null, image?: { __typename?: 'directus_files', id: string, title?: string | null, description?: string | null, width?: number | null, height?: number | null } | null } | null } | null> | null }> };
 
 export type TagFragment = { __typename?: 'tags', id: string, name?: string | null };
 
@@ -80794,6 +84381,16 @@ ${DisclosureBlockFragmentDoc}
 ${GalleryBlockFragmentDoc}
 ${CardBlockFragmentDoc}
 ${ImageBlockFragmentDoc}`;
+export const NewsBlockFragmentDoc = gql`
+    fragment NewsBlock on news_blocks {
+  title
+  tags {
+    tags_id {
+      ...Tag
+    }
+  }
+}
+    ${TagFragmentDoc}`;
 export const PageFragmentDoc = gql`
     fragment Page on pages {
   id
@@ -80843,6 +84440,9 @@ export const PageFragmentDoc = gql`
       ... on columns_blocks {
         ...ColumnsBlock
       }
+      ... on news_blocks {
+        ...NewsBlock
+      }
     }
   }
 }
@@ -80858,7 +84458,8 @@ ${GoogleMapsBlockFragmentDoc}
 ${CookieSelectionBlockFragmentDoc}
 ${ContactFormBlockFragmentDoc}
 ${GalleryBlockFragmentDoc}
-${ColumnsBlockFragmentDoc}`;
+${ColumnsBlockFragmentDoc}
+${NewsBlockFragmentDoc}`;
 export const TagCounterFragmentDoc = gql`
     fragment TagCounter on tags_counters {
   id
@@ -80994,6 +84595,22 @@ export const NewsPostsDocument = gql`
 
 export function useNewsPostsQuery(options: Omit<Urql.UseQueryArgs<never, NewsPostsQueryVariables>, 'query'>) {
   return Urql.useQuery<NewsPostsQuery, NewsPostsQueryVariables>({ query: NewsPostsDocument, ...options });
+};
+export const NewsPostsByTagsDocument = gql`
+    query NewsPostsByTags($tags: [String], $limit: Int, $offset: Int, $sort: [String]) {
+  news_posts(
+    filter: {tags: {tags_id: {id: {_in: $tags}}}}
+    limit: $limit
+    offset: $offset
+    sort: $sort
+  ) {
+    ...NewsPost
+  }
+}
+    ${NewsPostFragmentDoc}`;
+
+export function useNewsPostsByTagsQuery(options: Omit<Urql.UseQueryArgs<never, NewsPostsByTagsQueryVariables>, 'query'>) {
+  return Urql.useQuery<NewsPostsByTagsQuery, NewsPostsByTagsQueryVariables>({ query: NewsPostsByTagsDocument, ...options });
 };
 export const PageCountDocument = gql`
     query PageCount {

@@ -46,6 +46,9 @@ fragment Page on pages {
             ... on columns_blocks {
                 ...ColumnsBlock
             }
+            ... on news_blocks {
+                ...NewsBlock
+            }
         }
     }
 }
